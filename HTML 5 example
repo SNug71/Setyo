@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title> MEtode phising<title>
+</head>
+<body>
+   
+    <h1>isikan alamat anda<h1>
+            <form action="kirimemail.php" " method="get" enctype="text/plain">   Nama:<br><input type="text" name="name"
+            placeholder="Nama Lengkap" size="20"> 
+            <br>           
+            Alamat:<br><input type="text" name="address" placeholder="Alamat Surat" size="20"> 
+            <br>
+            Email:<br><input type="text" name="mail" placeholder="Alamat Email" size="20">
+            <br>
+            Komentar:<br> <textarea name="pesan" rows="5" cols="50"></textarea>
+            <br>
+            <button type="submit">Kirim</button>
+            <button type="reset">Reset</button>
+            </form>
+
+       <p>
+       <hr>
+       <small>Hak cipta: &copy; 2020 - Setyo Nugroho
+</body>
+</html>
+                     
